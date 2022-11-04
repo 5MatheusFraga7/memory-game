@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: ruby_battle_organizer
+  pool: 5
+  host: localhost
+  timeout: 5000
+  username: <%= 'rails' %>
+  password: <%= '1q2w3e' %>
+  port: 5432
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
