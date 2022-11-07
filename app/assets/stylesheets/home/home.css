@@ -1,3 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body {
-    background-color: aqua;
+    background-color: #882d88;
+    color: #6dfcb6;
+    font-family: 'Fjalla One', sans-serif;
+    /* #30024f */
+
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.title-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.game-title {
+    font-size: 71px;
+    text-shadow: 6px 5px 0px #170166;
+}
+.home-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+.options-container {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 36%;
+    background-color: #170166;
+    border-radius: 30px;
+}
+.player-name {
+    margin-bottom: 15px;
+    border-radius: 6px;
+    height: 29px;
+    width: 71%;
+    font-size: 20px;
+}
+
+.btn-send {
+    height: 35px;
+    width: 28%;
+    border-radius: 6px;
 }
