@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 body {
-    background-color: #882d88;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
     color: #6dfcb6;
     font-family: 'Fjalla One', sans-serif;
-    /* #30024f */
-
 }
 
 h1 {
@@ -25,6 +23,7 @@ h1 {
 .game-title {
     font-size: 71px;
     text-shadow: 6px 5px 0px #170166;
+    letter-spacing: 2px;
 }
 .home-container {
     position: relative;
@@ -50,14 +49,51 @@ h1 {
 }
 .player-name {
     margin-bottom: 15px;
-    border-radius: 6px;
+    border-radius: 4px;
     height: 29px;
     width: 71%;
     font-size: 20px;
+    background-color: #ffffff;
+    color: #170166;
+    font-weight: 700;
+    border: 2px solid #6dfcb6;
 }
 
 .btn-send {
-    height: 35px;
-    width: 28%;
-    border-radius: 6px;
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.btn-send {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+  position: absolute;
+  bottom: 12%;
+}
+
+.btn-send:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .btn-send {
+    padding: 0 2.6rem;
+  }
 }
