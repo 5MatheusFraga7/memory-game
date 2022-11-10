@@ -15,9 +15,17 @@
 
     <div class="container_cards">
         <div class="cards">
-            <div class="card">
-                
-            </div>
+            <% @cards.each do |card|%>	  
+                <div class="card" id = "card_<%= card %>">	
+                    <label> <%= card.gsub(".", "") %> </label>	 	      		
+                </div>							       	
+            <% end %>  
+
+            <% @cards.each do |card|%>	  
+                <div class="card" id = "card_<%= card %>">	
+                    <label> <%= card.gsub(".", "") %> </label>	      		
+                </div>							       	
+            <% end %>            
         </div>
     </div>
 
