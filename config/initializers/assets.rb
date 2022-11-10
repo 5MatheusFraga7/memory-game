@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( home.js )
 Rails.application.config.assets.precompile += %w( home.scss )
 Rails.application.config.assets.precompile += %w( memory_game.scss )
+Rails.application.config.assets.precompile += %w( memory_game.js )
