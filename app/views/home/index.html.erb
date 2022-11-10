@@ -18,12 +18,14 @@
     </div>
 
     <div class= 'home-container'>
-        <div class= 'options-container'>
-            <label style="margin-bottom: 15px;margin-top: 45px;font-size: 26px;letter-spacing: 3px;" >Nome</label>
-            <input type='text' class='player-name' placeholder='My beautyfull name'>
-
-            <button type='button' class='btn-send'> Entrar </button>
-        </div>
+        <form action="memory_game" method="get">
+            <div class= 'options-container'>
+                <label style="margin-bottom: 15px;margin-top: 45px;font-size: 26px;letter-spacing: 3px;" >Nome</label>
+                <input type='text' name='player-name' class='player-name' placeholder='My beautyfull name'>
+    
+                <button type='submit' class='btn-send'> Entrar </button>
+            </div>
+        </form>
     </div>
 
 </body>

@@ -36,6 +36,14 @@ h1 {
     flex-direction: column;
     height: 300px;
 }
+form {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: contents;
+}
+
+
 .options-container {
     display: flex;
     margin-top: 5px;
