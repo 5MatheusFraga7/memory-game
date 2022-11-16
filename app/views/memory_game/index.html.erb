@@ -12,22 +12,20 @@
     <title>Memory Game</title>
 </head>
 <body>
-
     <div class="container_cards">
         <div class="cards">
             <% @cards.each do |card|%>	  
                 <div class="card" id = "card_<%= card %>">	
-                    <label> <%= card.gsub(".", "") %> </label>	 	      		
+                	<%= image_tag "op_icon.png", :class => "op_icon.png", :id => "op_icon.png" %> 
                 </div>							       	
             <% end %>  
 
-            <% @cards.each do |card|%>	  
+            <% @cards.shuffle.each do |card|%>	  
                 <div class="card" id = "card_<%= card %>">	
-                    <label> <%= card.gsub(".", "") %> </label>	      		
+                    <%= image_tag "op_icon.png", :class => "op_icon.png", :id => "op_icon.png" %> 
                 </div>							       	
             <% end %>            
         </div>
     </div>
-
 </body>
 </html>
