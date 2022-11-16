@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
     color: #6dfcb6;
     font-family: 'Fjalla One', sans-serif;
+    overflow: hidden;
 }
 
 .container_cards {
@@ -20,6 +21,9 @@ body {
     width: 800px;
     background: aliceblue;
     border-radius: 8px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -30,7 +34,13 @@ body {
     margin: 5px;
     display: inline-flex;
     box-shadow: 0px 2px 5px 1px #3e4843;
-    align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+@media (max-width: 850px) {
+
+    .container_cards {
+        overflow: scroll;
+    }
 }
