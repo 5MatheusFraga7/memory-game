@@ -8,7 +8,6 @@ class MemoryGameController < ApplicationController
         @user  = params['player-name']
         @cards = []
 
-
         for i in 1..15
            @cards << Faker::JapaneseMedia::OnePiece.character
         end
@@ -18,7 +17,6 @@ class MemoryGameController < ApplicationController
     def verify_player_name
 
         redirect_to '/' if params['player-name'].nil? || params['player-name'].empty?
-
     end
 
 end
