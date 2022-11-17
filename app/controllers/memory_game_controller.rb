@@ -9,8 +9,9 @@ class MemoryGameController < ApplicationController
         @cards = []
 
         for i in 1..15
-           @cards << Faker::JapaneseMedia::OnePiece.character
+           @cards << { "character" => Faker::JapaneseMedia::OnePiece.character, "index" => i  }
         end
+
 
     end
 

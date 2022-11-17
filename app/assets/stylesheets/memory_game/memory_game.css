@@ -38,10 +38,18 @@ body {
     padding: 10px;
 }
 
-
 .card:hover{
     cursor: pointer;
     opacity: 0.8;
+}
+
+.rotated {
+    transition: 1s;
+    transform: rotate3d(0, 1, 0, 90deg);
+}
+
+.rotate_show_name {
+    transform: rotate3d(0, 1, 0, 180deg);
 }
 
 @media (max-width: 850px) {
