@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+REFAZER USANDO ANIMAÇÃO DO CSS
+
+https://www.w3schools.com/css/css3_animations.asp

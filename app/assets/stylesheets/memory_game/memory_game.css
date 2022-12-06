@@ -44,7 +44,7 @@ body {
 }
 
 .rotated {
-    transition: 1s;
+    transition: 0.5s;
     transform: rotate3d(0, 1, 0, 90deg);
 }
 

@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
-  get '/memory_game', to: 'memory_game#index'
+  get '/memory_game',           to: 'memory_game#index'
+  get '/get_name_of_character', to: 'memory_game#get_name_of_character'
+
 end
